@@ -1,3 +1,5 @@
+;author David Omrai
+
 (define 
     (problem problem_name) 
     (:domain sailor_domain)
