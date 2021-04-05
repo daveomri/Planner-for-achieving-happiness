@@ -1,0 +1,165 @@
+Plánovač bez úprav
+    Bez zásahu no plánovače se jako nejrychlejší cesta ke štěstí 
+    vyhodnotilo mít svatbu.
+    Námořník pro tuto cestu zvolil ne úplně optimální cestu z pohledu
+    zákona, kradl ve městě. Avšak před svatbou si jméno očistil veřejnými
+    pracemi.
+    result:
+        (go_to_river sailor)
+        (steal_dinghy sailor)
+        (go_to_forest sailor)
+        (collect_flowers sailor)
+        (fight_with_bear sailor)
+        (go_to_river sailor)
+        (go_to_harbor sailor)
+        (go_to_town sailor)
+        (steal_coin sailor)
+        (public_work sailor)
+        (invest sailor)
+        (go_to_harbor sailor)
+        (go_to_lighthouse sailor)
+        (propose sailor)
+        (go_to_sea sailor)
+        (hunt_pearl sailor)
+        (go_to_island sailor)
+        ; cost = 17 (unit cost)
+
+Plánovač bez cesty na akademii
+    S pozměněným plánovačem tak, aby námořník nemohl vstoupit na půdu
+    akadedmie se jako nejrychlejší cesta ke štěstí vyhodnotilo mít svatbu.
+    Námořník opět nectí zákon a odcizí člun a krade ve městě.
+    Obdiv u své přítelkyně si vydobyl přemožením medvěda. Před obřadem na 
+    ostrově se námořník v moři potopí pro perlu a také vystřízliví ve studené
+    mořské vodě. Za svědka mu půjde někdo z banky, kde investoval.
+    result:
+        (go_to_river sailor)
+        (steal_dinghy sailor)
+        (go_to_forest sailor)
+        (collect_flowers sailor)
+        (fight_with_bear sailor)
+        (go_to_river sailor)
+        (go_to_harbor sailor)
+        (go_to_town sailor)
+        (steal_coin sailor)
+        (public_work sailor)
+        (invest sailor)
+        (go_to_harbor sailor)
+        (go_to_lighthouse sailor)
+        (propose sailor)
+        (go_to_sea sailor)
+        (hunt_pearl sailor)
+        (go_to_island sailor)
+        ; cost = 17 (unit cost)
+
+Plánovač bez perly v moři
+    Jelikož se jako nejrychlejší cesta ke štěstí před úpravami plánovače 
+    vyhodnotilo mít svatbu, a ta se bez perly nemůže uskutečnit, tak se jako druhá
+    nejrychlejší cesta ke štěstí vyhodnotilo získání titulu admirála.
+    result:
+        (go_to_river sailor)
+        (steal_dinghy sailor)
+        (go_to_forest sailor)
+        (chop_tree sailor)
+        (fight_with_bear sailor)
+        (go_to_river sailor)
+        (go_to_harbor sailor)
+        (go_to_town sailor)
+        (steal_coin sailor)
+        (build_caravel sailor)
+        (go_to_harbor sailor)
+        (go_to_sea sailor)
+        (defeat_pirates sailor)
+        (go_to_harbor sailor)
+        (go_to_town sailor)
+        (clear_name sailor)
+        (go_to_academy sailor)
+        (graduate_academy sailor)
+        ; cost = 18 (unit cost)
+
+Plánovač bez loďky k odcizení
+    Jako nejoptimálnější cesta ke štěstí se vyhodnotilo mít svatbu.
+    Námořník sice odcizil nějaký ten zlatý peníz ve městě, ale zároveň si to
+    odpracoval ve veřejných pracích.
+    result:
+        (go_to_river sailor)
+        (go_to_forest sailor)
+        (chop_tree sailor)
+        (build_dinghy sailor)
+        (collect_flowers sailor)
+        (fight_with_bear sailor)
+        (go_to_river sailor)
+        (go_to_harbor sailor)
+        (go_to_town sailor)
+        (steal_coin sailor)
+        (public_work sailor)
+        (invest sailor)
+        (go_to_harbor sailor)
+        (go_to_lighthouse sailor)
+        (propose sailor)
+        (go_to_sea sailor)
+        (hunt_pearl sailor)
+        (go_to_island sailor)
+        ; cost = 18 (unit cost)
+
+Plánovač bez mapky od kouzelného dědečka
+    Nejoptimálnější cesta ke štěstí bez mapky je opět mít svatbu.
+    result:
+        (go_to_river sailor)
+        (steal_dinghy sailor)
+        (go_to_forest sailor)
+        (collect_flowers sailor)
+        (fight_with_bear sailor)
+        (go_to_river sailor)
+        (go_to_harbor sailor)
+        (go_to_town sailor)
+        (steal_coin sailor)
+        (public_work sailor)
+        (invest sailor)
+        (go_to_harbor sailor)
+        (go_to_lighthouse sailor)
+        (propose sailor)
+        (go_to_sea sailor)
+        (hunt_pearl sailor)
+        (go_to_island sailor)
+        ; cost = 17 (unit cost)
+
+Plánovač tak aby se vyhodnotil kokain jako nejoptimálnější
+    Pro dosáhnutí konce s kokainem je potřeba poměrně více kroků. Námořník
+    se musí stát závislým, musí si vyrobit fregatu, musí navázat známosti s pašeráky, 
+    získat mapu od kouzelného dědečka, jet na ostrov aniž by ztratil zlatou cihlu, či fregatu,
+    atd..
+    Pro získání tohoto scénáře stačí z sailor-instl.pddl odstranit/zakomentovat nežádoucí konce.
+    result:                                                                      
+        (go_to_town sailor)                                                          
+        (steal_coin sailor)                                                          
+        (public_work sailor)                                                         
+        (go_to_harbor sailor)                                                        
+        (work sailor)                                                                
+        (go_to_pub sailor)                                                           
+        (pub_fight sailor)                                                           
+        (buy_ale sailor)                                                             
+        (get_drunk sailor)                                                           
+        (go_to_harbor sailor)                                                        
+        (work sailor)                                                                
+        (go_to_pub sailor)                                                           
+        (buy_ale sailor)                                                             
+        (go_to_harbor sailor)                                                        
+        (go_to_river sailor)                                                         
+        (steal_dinghy sailor)                                                        
+        (go_to_forest sailor)                                                        
+        (meet_wizard sailor)                                                         
+        (chop_tree sailor)                                                           
+        (build_caravel sailor)                                                       
+        (go_to_river sailor)                                                         
+        (go_to_harbor sailor)                                                        
+        (go_to_sea sailor)                                                           
+        (defeat_pirates sailor)                                                      
+        (go_to_island sailor)                                                        
+        (find_cocaine sailor)                                                        
+        (go_to_sea sailor)                                                           
+        (go_to_harbor sailor)                                                        
+        (meet_smugglers sailor)                                                      
+        (go_to_pub sailor)                                                           
+        (buy_ale sailor)                                                             
+        (get_addicted sailor)                                                        
+        ; cost = 32 (unit cost) 
