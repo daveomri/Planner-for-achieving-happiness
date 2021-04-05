@@ -1,3 +1,4 @@
+;author David Omrai
 ;Header and description
 
 (define (domain sailor_domain)
